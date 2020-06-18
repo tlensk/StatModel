@@ -10,3 +10,11 @@ Thus, we define probabilities for observing certain nucleotides in two genomes a
 Therefore, the probability p of a single nucleotide match assuming that nucleotides are independent is the following:
 
 ![Fig.2](/images/p_match.png)
+
+And conversely, the probability of a single nucleotide mismatch is 1 – p.
+
+For example, if    _g<sub>1</sub>_ =  _g<sub>2</sub>_ = 0.5 (i.e., GC-content in both genomes is 50%) then _p_=0.25. 
+
+We assume that nucleotide matches are mutually exclusive then the probability of a match between two strings of length _k_ equals _p<sup>k</sup>_. Thus, the probability that two string of length _k_ mismatch is (1 – _p<sup>k</sup>_).
+
+Moreover, the probability of no match between a particular string of length _k_ and a set of _m_ strings of length _k_ is equal to ((1 – _p<sup>k</sup>_)_<sub>m</sub>_. Thus, the probability that no string out of a set of q strings, each of length k, matches any string out of a separate set of m strings, each of length k:
