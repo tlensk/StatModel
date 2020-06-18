@@ -20,3 +20,16 @@ We assume that nucleotide matches are mutually exclusive then the probability of
 Moreover, the probability of no match between a particular string of length _k_ and a set of _m_ strings of length _k_ is equal to
 <br>
 (1 – _p<sup>k</sup>_)_<sup>m</sup>_. Thus, the probability that no string out of a set of q strings, each of length _k_, matches any string out of a separate set of _m_ strings, each of length _k_:
+
+![Fig.3](/images/prob.png)
+
+To compute this probability, we use the following formula:
+
+![Fig.4](/images/prob_e.png)
+
+In addition, we use the power series to compute log(1-x) for small x (x < 0.25).
+
+![Fig.5](/images/log.png)
+
+
+
