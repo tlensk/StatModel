@@ -17,4 +17,5 @@ For example, if    _g<sub>1</sub>_ =  _g<sub>2</sub>_ = 0.5 (i.e., GC-content in
 
 We assume that nucleotide matches are mutually exclusive then the probability of a match between two strings of length _k_ equals _p<sup>k</sup>_. Thus, the probability that two string of length _k_ mismatch is (1 – _p<sup>k</sup>_).
 
-Moreover, the probability of no match between a particular string of length _k_ and a set of _m_ strings of length _k_ is equal to ((1 – _p<sup>k</sup>_)_<sub>m</sub>_. Thus, the probability that no string out of a set of q strings, each of length k, matches any string out of a separate set of m strings, each of length k:
+Moreover, the probability of no match between a particular string of length _k_ and a set of _m_ strings of length _k_ is equal to 
+(1 – _p<sup>k</sup>_)_<sup>m</sup>_. Thus, the probability that no string out of a set of q strings, each of length _k_, matches any string out of a separate set of _m_ strings, each of length _k_:
