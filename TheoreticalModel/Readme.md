@@ -11,7 +11,7 @@ Therefore, the probability p of a single nucleotide match assuming that nucleoti
 
 ![Fig.2](/images/p_match.png)
 
-And conversely, the probability of a single nucleotide mismatch is 1 – p.
+And conversely, the probability of a single nucleotide mismatch is _1 – p_.
 
 For example, if    _g<sub>1</sub>_ =  _g<sub>2</sub>_ = 0.5 (i.e., GC-content in both genomes is 50%) then _p_=0.25. 
 
